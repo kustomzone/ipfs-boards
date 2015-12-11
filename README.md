@@ -98,15 +98,15 @@ You will be able to publish your boards/profile/posts using a CLI though.
 
 ## FAQ
 
-See `FAQ.md`
+See [`FAQ.md`](FAQ.md)
 
 ### How does it work?
 
-See `PROTOCOL.md`
+See [`PROTOCOL.md`](PROTOCOL.md)
 
 ### How do I set up a development environment?
 
-See `CONTRIBUTING.md`
+See [`CONTRIBUTING.md`](CONTRIBUTING.md)
 
 ## Components
 
