@@ -1,3 +1,9 @@
+
+### Any requirements?
+
+IPFS daemon (localhost)
+Chrome 40+ (ES6 compatibility)
+
 ### How does it work?
 
 See `PROTOCOL.md`
