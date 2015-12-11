@@ -7,15 +7,15 @@
 
 ### How does it work?
 
-See `PROTOCOL.md`
+See [`PROTOCOL.md`](PROTOCOL.md)
 
 ### How do you handle Control and Administration?
 
-See `PROTOCOL.md`
+See [`PROTOCOL.md`](PROTOCOL.md)
 
 ### But isn't gathering all the data slow? And what if a user goes offline?
 
-That's why there are __Cache Servers__. See `PROTOCOL.md`
+That's why there are __Cache Servers__. See [`PROTOCOL.md`](PROTOCOL.md)
 
 ### What about search engines? They can't index stuff that's not served over plain HTTP
 
