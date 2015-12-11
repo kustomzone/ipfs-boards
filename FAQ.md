@@ -2,7 +2,8 @@
 ### Any requirements?
 
 - IPFS daemon (localhost)
-- Working in Chrome 46, Opera 34, FF 45 (nightly) (ie. ES6 compatibility)
+- Working in Chrome 46, Opera 34, FF 45 (nightly) (latest ES6 compatibility)
+- Linux for the build process (Windows build option pending) 
 
 ### How does it work?
 
