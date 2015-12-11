@@ -60,13 +60,17 @@ module.exports = {
       template: 'webapp/index.html',
       inject: 'body'
     }),
-    // Optimization
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
-    }),
-    new webpack.optimize.OccurenceOrderPlugin(),
-    new webpack.optimize.DedupePlugin()
+	new webpack.optimize.LimitChunkCountPlugin({
+		maxChunks: 1
+	})
+	// ,
+    // Optimization (dsiabled)
+    // new webpack.optimize.UglifyJsPlugin({
+    //  compress: {
+    //    warnings: false
+    //  }
+    // }),
+    // new webpack.optimize.OccurenceOrderPlugin(),
+    // new webpack.optimize.DedupePlugin()
   ]
 }
