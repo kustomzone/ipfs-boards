@@ -15,8 +15,8 @@
             "unix"
         ],
         "semi": [
-            1,
-            "never"
+            2,
+            "always"
         ]
     },
     "env": {
@@ -24,12 +24,14 @@
         "node": true,
         "browser": true
     },
-    "extends": "eslint:recommended",
-    "ecmaFeatures": {
-        "jsx": true,
-        "experimentalObjectRestSpread": true
+    "extends": {
+	    "eslint:recommended"
     },
-    "plugins": [
-        "react"
-    ]
+    "ecmaFeatures": {
+        "jsx": true
+    },
+    "plugins": {
+        "react",
+        "babel"
+    }
 }

@@ -2,6 +2,8 @@ var path = require('path')
 var webpack = require('webpack')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 
+var isWin = /^win/.test(process.platform)
+
 // Most of the config was copied from js-ipfs-api's webpack configuration
 
 module.exports = {
@@ -60,17 +62,15 @@ module.exports = {
       template: 'webapp/index.html',
       inject: 'body'
     }),
-	new webpack.optimize.LimitChunkCountPlugin({
-		maxChunks: 1
-	})
-	// ,
-    // Optimization (dsiabled)
-    // new webpack.optimize.UglifyJsPlugin({
-    //  compress: {
-    //    warnings: false
-    //  }
-    // }),
-    // new webpack.optimize.OccurenceOrderPlugin(),
-    // new webpack.optimize.DedupePlugin()
+     new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+     }),
+     new webpack.optimize.OccurenceOrderPlugin(),
+     new webpack.optimize.DedupePlugin() //,
+	 // new webpack.optimize.LimitChunkCountPlugin({
+	 // maxChunks: 1
+	 //})
   ]
 }
