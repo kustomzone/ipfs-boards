@@ -2,3 +2,4 @@ ipfs-boards-profile/
 node_modules/
 webapp/dist/
 .publish/
+upload_webapp_on_ipfs.sh
