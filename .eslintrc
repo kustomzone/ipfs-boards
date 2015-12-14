@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "rules": {
         "no-console": [ 0 ],
         "no-unused-vars": [ 0 ],
@@ -34,4 +35,11 @@
         "react",
         "babel"
     }
+=======
+    "parser": "babel-eslint",
+    "extends": "standard",
+    "plugins": [
+        "react"
+    ]
+>>>>>>> refs/remotes/fazo96/master
 }
